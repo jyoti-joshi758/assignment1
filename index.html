@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Section</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  <style>
+    /* Custom CSS for smoother card rotation */
+    .card {
+      transition: transform 1s ease;
+    }
+    .card:hover {
+      transform: rotate(360deg);
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <div id="assignment" class="mx-auto my-8 p-6 max-w-7xl">
+    <div class="text-center text-3xl font-bold text-gray-800 mb-6">Our Services</div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <!-- Service Card 1 -->
+      <div class="card p-6 bg-white shadow-lg rounded-lg">
+        <div class="flex justify-center mb-4">
+          <!-- FontAwesome Icon -->
+          <i class="fas fa-tools fa-3x text-blue-500"></i>
+        </div>
+        <h3 class="text-lg font-semibold text-gray-700 text-center">Emergency Plumbing Services</h3>
+        <p class="text-gray-500 text-center text-sm mt-2">
+          Our plumbers are ready to go 24/7 for emergencies – nights, weekends, and holidays.
+        </p>
+        <div class="text-center mt-4">
+          <a href="#" class="text-blue-500 font-bold hover:text-blue-700">Explore this service</a>
+        </div>
+      </div>
+      
+      <!-- Service Card 2 -->
+      <div class="card p-6 bg-white shadow-lg rounded-lg">
+        <div class="flex justify-center mb-4">
+          <i class="fas fa-wrench fa-3x text-blue-500"></i>
+        </div>
+        <h3 class="text-lg font-semibold text-gray-700 text-center">Plumbing and Drains</h3>
+        <p class="text-gray-500 text-center text-sm mt-2">
+          We make thousands of repairs every day.
+        </p>
+        <div class="text-center mt-4">
+          <a href="#" class="text-blue-500 font-bold hover:text-blue-700">Explore this service</a>
+        </div>
+      </div>
+
+      <!-- Service Card 3 -->
+      <div class="card p-6 bg-white shadow-lg rounded-lg">
+        <div class="flex justify-center mb-4">
+          <i class="fas fa-water fa-3x text-blue-500"></i>
+        </div>
+        <h3 class="text-lg font-semibold text-gray-700 text-center">Water Damage</h3>
+        <p class="text-gray-500 text-center text-sm mt-2">
+          Equipped with state-of-the-art cleanup equipment.
+        </p>
+        <div class="text-center mt-4">
+          <a href="#" class="text-blue-500 font-bold hover:text-blue-700">Explore this service</a>
+        </div>
+      </div>
+
+      <!-- Service Card 4 -->
+      <div class="card p-6 bg-white shadow-lg rounded-lg">
+        <div class="flex justify-center mb-4">
+          <i class="fas fa-hot-tub fa-3x text-blue-500"></i>
+        </div>
+        <h3 class="text-lg font-semibold text-gray-700 text-center">Water Heaters</h3>
+        <p class="text-gray-500 text-center text-sm mt-2">
+          Trust Roto-Rooter for repairs and replacements.
+        </p>
+        <div class="text-center mt-4">
+          <a href="#" class="text-blue-500 font-bold hover:text-blue-700">Explore this service</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "name": "blogApp",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "tailwindcss -i ./tailwind.css -o ./output.css --watch"
+    },
+    "devDependencies": {
+      "tailwindcss": "^3.0.0"
+    }
+  }
+  
